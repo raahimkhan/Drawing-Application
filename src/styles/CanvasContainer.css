@@ -1,0 +1,155 @@
+.outer-container {
+    display: flex;
+    flex-direction: row;
+    flex: 8;
+    background-color: white;
+}
+
+.canvas-functions {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    border: 2px solid black;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+.column-height {
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+.col.column-height *:focus {
+    outline: none !important;
+}
+
+.canvas-container {
+    display: flex;
+    flex-direction: row;
+    flex: 5;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 4px;
+}
+
+.canvas-colors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 2;
+    border: 2px solid black;
+    margin-bottom: 4px;
+    margin-right: 4px;
+}
+
+.selected-color {
+    box-shadow: 0 0 5px 5px rgb(100, 91, 91);
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.orange {
+    background-color: orange;
+}
+.purple {
+    background-color: purple;
+}
+.pink {
+    background-color: pink;
+}
+.brown {
+    background-color: brown;
+}
+.white {
+    background-color: white;
+}
+.gray {
+    background-color: gray;
+}
+.black {
+    background-color: black;
+}
+.olive {
+    background-color: olive;
+}
+.plum {
+    background-color: plum;
+}
+.magenta {
+    background-color: magenta;
+}
+.cyan {
+    background-color: cyan;
+}
+.salmon {
+    background-color: salmon;
+}
+.khaki {
+    background-color: khaki;
+}
+.maroon {
+    background-color: maroon;
+}
+.silver {
+    background-color: silver;
+}
+.gold {
+    background-color: gold;
+}
+.teal {
+    background-color: teal;
+}
+.coral {
+    background-color: coral;
+}
+.midnightblue {
+    background-color: midnightblue;
+}
+.orchid {
+    background-color: orchid;
+}
+.azure {
+    background-color: azure;
+}
+.turquoise {
+    background-color: turquoise;
+}
+.tomato {
+    background-color: tomato;
+}
+.aqua {
+    background-color: aqua;
+}
+.color-column-height {
+    height: 45px;
+}
+.col.color-column-height *:focus {
+    outline: none !important;
+}
+.selected-color-height {
+    height: 100px;
+}
+.col.selected-color-height *:focus {
+    outline: none !important;
+}
+
+.thickness-height {
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.col.thickness-height *:focus {
+    outline: none !important;
+}
